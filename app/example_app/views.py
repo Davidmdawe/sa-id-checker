@@ -85,4 +85,4 @@ def home(request):
                 for entry in search_logs
             ]
 
-    return render(request, "id_check/home.html", {"form": form, "result": result, "chart_data": chart_data})
+    return render(request, "home.html", {"form": form, "result": result, "chart_data": chart_data})
